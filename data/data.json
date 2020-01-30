@@ -1,0 +1,57 @@
+[
+    {
+        "id": "0",
+        "productName": "What is Insurance?",
+        "image": "are-you-covered-insurance.png",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "8GB",
+        "storage": "512 GB SSD",
+        "screen": "13.9-inch, 3K (3,000 x 2,080)",
+        "price": "As low as $99/mo",
+        "description": "Insurance is a means of protection from financial loss. It is a form of risk management, primarily used to hedge against the risk of a contingent or uncertain loss. An entity which provides insurance is known as an insurer, insurance company, insurance carrier or underwriter. A person or entity who buys insurance is known as an insured or as a policyholder."
+    },
+    {
+        "id": "1",
+        "productName": "Auto Insurance",
+        "image": "auto-insurance.jpg",
+        "cpu": "6-core Intel i7, 8th generation",
+        "ram": "16GB",
+        "storage": "1TB GB SSD",
+        "screen": "15-inch Retina display",
+        "price": "As low as  $99/mo",
+        "description": "Auto insurance is an agreement between you and your insurance provider about what would happen in the event of an accident. It protects you from financial losses in the event of incidents covered by your policy. Rather than being on the hook for things like repair, replacement costs and even medical bills, you pay a car insurance premium to your insurance provider and they will help cover the costs based upon the coverage and limits you choose."
+    },
+    {
+        "id": "2",
+        "productName": "Home and Renters Insurance",
+        "image": "Home-insurance.jpg",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "16GB",
+        "storage": "512 GB SSD",
+        "screen": "13.3-inch, Full HD",
+        "price": "1199",
+        "description": "Homeowners and Renters insurance is a form of property insurance that covers losses and damages to an individual's house and to assets in the home. Homeowners insurance also provides liability coverage against accidents in the home or on the property. "
+    },
+    {
+        "id": "3",
+        "productName": "Life Insurance",
+        "image": "Life-insurance.jpg",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "16GB",
+        "storage": "512 GB SSD",
+        "screen": "13.3-inch, Full HD touchscreen",
+        "price": "1399",
+        "description": "Life insurance (or life assurance, especially in the Commonwealth of Nations) is a contract between an insurance policy holder and an insurer or assurer, where the insurer promises to pay a designated beneficiary a sum of money (the benefit) in exchange for a premium, upon the death of an insured person (often the policy holder)."
+    },
+    {
+        "id": "4",
+        "productName": "Health Insurance",
+        "image": "Health-insurance.jpg",
+        "cpu": "Intel Core i7, 8th generation",
+        "ram": "16GB",
+        "storage": "256 GB SSD",
+        "screen": "15-inch, Full HD",
+        "price": "1499",
+        "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
+    }
+]
