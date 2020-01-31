@@ -33,7 +33,7 @@ const server = http.createServer((req, res) => {
         
     }
     
-    // INSURANCE DETAIL
+    // LAPTOP DETAIL
     else if (pathName === '/laptop' && id < laptopData.length) {
         res.writeHead(200, { 'Content-type': 'text/html'});
         
