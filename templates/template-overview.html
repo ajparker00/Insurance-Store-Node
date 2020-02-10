@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Nunito+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
 
     <title>The Insurance Store!</title>
 
@@ -61,14 +63,14 @@
         }
 
         .container {
-            width: 110rem;
+            /* width: 110rem; */
             margin: 0 auto;
         }
 
         .cards-container {
-            display: grid;
+            /* display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 6rem;
+            grid-gap: 6rem; */
         }
 
         .card {
@@ -172,22 +174,20 @@
 <body>
 
     <!-- Added Bootstrap. The containter was already there, but BootS is overiding the css vale given to the containter above.
-I added a row and column just bc but it is not affecting the out come.   
+I added a row and column just bc but it is not affecting the out come.
 It's being responsive  however the price and get quote attatched to the card is not responding with it.
 Also it doesn't appear to be mobile first responding.
-As I mentioned its tough for me to make resposive bc he's not using basic html which each card would have it's own column. 
+As I mentioned its tough for me to make resposive bc he's not using basic html which each card would have it's own column.
 Seems to me he lumping all the cards into one.  There is a card-container class that's using the grid system.
-I figured to get this first part working before I even moved on to the next pages. 
-Also trying to get my images the same since they are all different sizes from the internet. Thanks for looking at this. 
+I figured to get this first part working before I even moved on to the next pages.
+Also trying to get my images the same since they are all different sizes from the internet. Thanks for looking at this.
   -->
 
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>The Insurance Store!</h1>
-                <div class="cards-container">
-                    {%CARDS%}
-                </div>
+        <h1>The Insurance Store!</h1>
+        <div class="cards-container">
+            <div class="row">
+                {%CARDS%}
             </div>
         </div>
     </div>
