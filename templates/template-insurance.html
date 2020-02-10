@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>{%PRODUCTNAME%} /// The Insurance Store!</title>
 
@@ -59,7 +61,7 @@
         }
 
         .container {
-            width: 110rem;
+            /* width: 110rem; */
             margin: 0 auto;
         }
 
@@ -215,19 +217,21 @@
 
 <body>
     <div class="container">
-        <h1>The Insurance Store!</h1>
-        <figure class="insurance">
-            <p class="insurance__price">${%PRICE%}</p>
-            <a href="/products" class="insurance__back"><span class="emoji-left">👈</span>Back</a>
-            <div class="insurance__hero">
-                <img src="/{%IMAGE%}" alt="{%PRODUCTNAME%}" class="insurance__img">
-            </div>
-            <h2 class="insurance__name">{%PRODUCTNAME%}</h2>
-            <p class="insurance__description">{%DESCRIPTION%}</p>
-            <p class="insurance__source">Source: <a href="https://www.investopedia.com/terms/i/insurance.asp"
-                    target="_blank">https://www.investopedia.com/terms/i/insurance.asp</a></p>
-            <a href="#" class="insurance__link">Buy now for ${%PRICE%} <span class="emoji-right">🥳 😍</span></a>
-        </figure>
+        <div class="row">
+            <h1>The Insurance Store!</h1>
+            <figure class="insurance">
+                <p class="insurance__price">${%PRICE%}</p>
+                <a href="/products" class="insurance__back"><span class="emoji-left">👈</span>Back</a>
+                <div class="insurance__hero">
+                    <img src="/{%IMAGE%}" alt="{%PRODUCTNAME%}" class="insurance__img">
+                </div>
+                <h2 class="insurance__name">{%PRODUCTNAME%}</h2>
+                <p class="insurance__description">{%DESCRIPTION%}</p>
+                <p class="insurance__source">Source: <a href="https://www.investopedia.com/terms/i/insurance.asp"
+                        target="_blank">https://www.investopedia.com/terms/i/insurance.asp</a></p>
+                <a href="#" class="insurance__link">Buy now for ${%PRICE%} <span class="emoji-right">🥳 😍</span></a>
+            </figure>
+        </div>
     </div>
 </body>
 
