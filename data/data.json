@@ -18,7 +18,7 @@
         "productName": "Renters Insurance",
         "image": "renters.jpg",
         "price": "125/annually",
-        "description": "Homeowners insurance is a form of property insurance that covers losses and damages to an individual's house and to assets in the home. Homeowners insurance also provides liability coverage against accidents in the home or on the property. "
+        "description": "Renters' insurance, often called tenants' insurance, is an insurance policy that provides some of the benefits of homeowners' insurance, but does not include coverage for the dwelling, or structure, with the exception of small alterations that a tenant makes to the structure."
     },
     {
         "id": "3",
@@ -32,6 +32,6 @@
         "productName": "Health Insurance",
         "image": "Health-Insurance.jpg",
         "price": "149/mo",
-        "description": "While it may not have the best keyboard in the world, the Samsung Notebook 9 is still one of the best laptops you can buy in 2018. Packed with more horsepower than some MacBook Pros,but at a much lower price, Samsung has crafted a laptop that has just as much substance as it does style. Plus, on top of its killer specs, it’s lightweight and thin, making this one of the most portable 15-inch laptops you can buy today."
+        "description": "Health Insurance is a loss by illness or bodily injury. Health insurance provides coverage for medicine, visits to the doctor or emergency room, hospital stays and other medical expenses. Policies differ in what they cover, the size of the deductible and/or co-payment, limits of coverage and the options for treatment available to the policyholder."
     }
 ]
